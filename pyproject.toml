@@ -1,0 +1,19 @@
+[project]
+name = "xiaozhen-worldsim"
+version = "0.1.0"
+description = "World simulation MVP"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi==0.111.0",
+  "uvicorn[standard]",
+  "sqlmodel",
+  "aiosqlite",
+  "sse-starlette",
+  "noise",
+  "pytest",
+  "pytest-asyncio",
+  "httpx",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
