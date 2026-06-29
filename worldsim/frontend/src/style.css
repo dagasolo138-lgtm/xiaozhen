@@ -1,0 +1,3 @@
+body{margin:0;font-family:system-ui;background:#17202a;color:#edf2f7}.app{display:grid;grid-template-columns:1fr 340px;gap:12px;padding:12px}.panel{background:#22313f;border:1px solid #40566b;border-radius:8px;padding:12px}button{margin:4px;padding:6px 10px}canvas{background:#101820;border-radius:8px;width:100%;height:640px}.events{max-height:220px;overflow:auto;font-size:12px}.toolbar button.active{outline:2px solid #ffd166}.timeline{max-height:160px;overflow:auto;font-size:12px}
+.mapStats{font-size:12px;color:#9fb3c8;margin-top:4px}
+.timeline ol{padding-left:20px}.timeline li{margin-bottom:8px}

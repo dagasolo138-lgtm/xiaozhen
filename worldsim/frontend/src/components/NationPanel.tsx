@@ -1,0 +1,2 @@
+import { useWorldStore } from '../store/worldStore';
+export default function NationPanel(){ const nations=useWorldStore(s=>s.nations); return <div className="panel"><h3>国家</h3>{nations.map(n=><div key={n.id}><b style={{color:n.color}}>{n.name}</b><br/>粮{n.stock_food.toFixed(0)} 木{n.stock_wood.toFixed(0)} 石{n.stock_stone.toFixed(0)} 铁{n.stock_iron.toFixed(0)} 金{n.stock_gold.toFixed(0)}<br/>农民{n.pop_farmers} 矿工{n.pop_extractors} 军队{n.army_size}</div>)}</div> }
